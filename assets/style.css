@@ -1,0 +1,90 @@
+h1, h2,h3,h4,h5,h6,p, a{font-family: "Montserrat";}
+a{text-decoration-line:none;}
+
+/*header*/
+.content-grid{max-width:1080px}
+
+.logo-agua{width:7%;}
+.mdl-layout__header{background-color: #fff;height:80px;display:grid;align-content: center;justify-content: center;}
+.mdl-layout__header-row{max-width:1080px; justify-content:  center;padding: 0;}
+.mdl-layout__header-row .mdl-navigation__link {color:#51A9C5;}
+.mdl-logo{margin:0;}
+a.mi-consumo-btn  {background-color: #51A9C5;color:#fff;}
+.consumo-page.mdl-layout__header-row{max-width: initial;padding: 70px;}
+
+/*footer*/
+.material-icons{color:#fff;padding-top:10px;}
+.mdl-mini-footer, .mdl-logo{display: flex;justify-content: center;}
+.uxdi-footer, .uxdi-footer-inicio-page{background-color:#777777;}
+.uxdi-footer h6, .uxdi-footer-inicio-page h6{margin-top:0;margin-bottom: 0;display:flex; justify-content: center;color:#fff;padding:12px;}
+.uxdi-footer-inicio-page{position:absolute; bottom:0;width:100%;}
+
+/*home slide*/
+.home-slide h5{padding-top:35%;}
+a.button-site{ padding: 10px 30px; border-radius: 200px;}
+a.quiero-sumarme-btn{background-color:#fff;color:#2F2F2F;}
+.home-slide {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/home-image.jpg");
+    background-repeat: no-repeat;background-size: cover;color:#fff;height: 80%;}
+.home-slide .content-grid{display: flex;align-items: center;justify-content: center;}
+.home-slide p{margin-bottom:48px;}
+
+/*sabias que section*/
+.sabias-que-section{display: grid;justify-content: center;}
+.sabias-que-section h1, .sabias-que-section p, .svg-card{text-align: center;}
+.svg-card{padding-left:80px;padding-right:80px;}
+.svg-card svg{margin-bottom: 43px;}
+
+/*mapa section*/
+.mapa-section{background-color: #51A9C5;}
+.mapa-section p, .mapa-section h1{color:#fff;}
+.mapa-section a{color:#51A9C5;}
+.mapa-section  .mdl-cell{margin:0;}
+.mapa-section  .mdl-grid {padding:0;}
+.mapa-section .content-grid{align-items: center;justify-content: center;}
+.mapa-section p{margin: 0 0 39px;}
+
+/*noticias section*/
+.noticias-section, .sabias-que-section{margin-bottom:94px;margin-top:55px;}
+.noticias-section .content-grid .mdl-cell.mdl-cell--12-col, .detalle-consumo-section .content-grid .mdl-cell.mdl-cell--12-col{display:inline-flex; align-items: center;}
+.noticias-card{background: #FFFFFF;box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.15); border-radius: 10px;}
+.noticias-card img{width:100%;}
+.noticias-section a{float:right;}
+.title-card p, .title-card h5 {padding-left:24px;}
+.title-card{padding-top:24px;}
+.title-card h5{margin-top:10px;padding-bottom:24px}
+.title-card p{margin-bottom:0px;}
+
+/*inicio section*/
+.inicio-section .material-icons.arrow{color: #2F2F2F;margin-top: 69px;}
+.inicio-section h4{font-size: 28px;font-weight: 600;}
+.inicio-section{display: flex;}
+.inicio-section .content-grid{display: flex;justify-content: center;}
+.inicio-section .mdl-textfield__label:after{background-color: #51A9C5;}
+.inicio-section .mdl-textfield--floating-label.is-focused .mdl-textfield__label{color:#51A9C5;}
+.registro span, .submit h6{color:#51A9C5; font-weight: 500;}
+.registro h6, .submit h6{font-weight: 500;}
+.registro{display: flex; justify-content: center;margin-top:24px;}
+.submit{display: inline-flex;align-items: center;}
+.input-with-icon i { position: absolute; right: 8px; bottom: 20px; cursor: pointer; }
+.inicio-section .material-icons {color:#C4C4C4;padding-bottom: 20px;} 
+.inicio-section input{padding-bottom: 20px;}
+.input-usuario{padding-bottom:61px;}
+
+/*consumo section*/
+.button-site.agregar-hogar-btn{color: #2F2F2F; border: solid 1px #51A9C5;}
+.mdl-layout__drawer.consumo .mdl-layout__drawer-button .material-icons{color:#777777;}
+@media only screen and (max-width: 1024px)  {
+    .logo-agua{width:60%;margin: 20%;}
+}
+@media only screen and (max-width: 1023px)  {
+    .logo-agua{width:30%;margin: 20%;}
+    .mapa-section img{width:100%;}
+}
+@media only screen and (min-width: 768px)  {
+    .inicio-section .mdl-textfield{width:31rem;}
+}
+@media only screen and (max-width: 767px)  {
+    .submit{display:block;
+}
+}
+
