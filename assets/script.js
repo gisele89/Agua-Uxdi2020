@@ -7,9 +7,8 @@ icon.addEventListener('click', (event) => {
 }); 
 
 
-function enableButton(password) {
+let password=document.getElementById(password)
 let bt = document.getElementById('inicio-sesion-btn');
   if ((password).value != '') {
-      bt.classList.add('enabled-btn');
+      bt.classList.remove('disabled-btn');
   }
-}

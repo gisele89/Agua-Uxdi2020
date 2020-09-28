@@ -39,6 +39,9 @@ a{text-decoration-line:none;transition: all 0.4s ease;}
 @media only screen and (min-width: 1024px){
     .mdl-layout__drawer-button .material-icons{display:none;}
 }
+@media only screen and (max-width: 1919px){
+    .inicio-section span.material-icons.arrow{margin-top: 20px;}
+}
 
 /*header*/
 .content-grid{max-width:1080px}
@@ -105,13 +108,14 @@ a.quiero-sumarme-btn:hover{background-color:transparent;color:#fff;}
 .inicio-section .mdl-textfield--floating-label.is-upgraded.is-dirty .mdl-textfield__label{color:#51A9C5;}
 .registro span, .submit h6{color:#51A9C5; font-weight: 500;}
 .registro h6, .submit h6{font-weight: 500;}
-.enabled-btn{background-color:#C4C4C4;}
+a.disabled-btn{background-color:#C4C4C4;pointer-events: none;}
 .registro{display: flex; justify-content: center;margin-top:24px;}
 .submit{display: inline-flex;align-items: center;}
 .input-with-icon i { position: absolute; right: 8px; bottom: 20px; cursor: pointer; }
 .inicio-section .material-icons {color:#C4C4C4;padding-bottom: 20px;} 
 .inicio-section input{padding-bottom: 20px;}
 .input-usuario{margin-bottom:51px;}
+input{background-color: #fff;}
 
 /*consumo section*/
 .button-site.agregar-hogar-btn{color: #2F2F2F; border: solid 1px #51A9C5;}
