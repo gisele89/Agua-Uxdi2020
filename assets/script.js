@@ -7,8 +7,9 @@ icon.addEventListener('click', (event) => {
 }); 
 
 
-let password=document.getElementById(password)
+let pass=document.getElementById(password);
+let user=document.getElementById(usuario);
 let bt = document.getElementById('inicio-sesion-btn');
-  if ((password).value != '') {
+  if ((pass.value != '') && (user.value!='')) {
       bt.classList.remove('disabled-btn');
   }

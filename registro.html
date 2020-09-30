@@ -43,57 +43,56 @@
       </nav>
     </div>
     <main class="mdl-layout__content">
-        <ul class="mdl-stepper mdl-stepper--linear mdl-stepper--horizontal" id="demo-stepper-linear">
-            <li class="mdl-step">
-              <span class="mdl-step__label">
-                        <span class="mdl-step__title">
-                          <span class="mdl-step__title-text">Title of step 1</span>
-              </span>
-              </span>
-              <div class="mdl-step__content">
+      <section class="inicio-section">
+        <div class="mdl-grid content-grid ">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+               <a href="index.html">
+                <span class="material-icons arrow">
+                    arrow_back
+                </span>
+               </a> 
+                <div>
+                    <h4>Registrarse </h4>
+                </div>
+                <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
+                        <input class="mdl-textfield__input" type="text" id="nombre">
+                        <label class="mdl-textfield__label" for="Ingresar nombre">Nombre</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
+                      <input class="mdl-textfield__input" type="text" id="apellido">
+                      <label class="mdl-textfield__label" for="Ingresar apellido">Apellido</label>
+                  </div>
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
+                    <input class="mdl-textfield__input" type="date" id="fecha-nacimiento">
+                    <label class="mdl-textfield__label" for="Ingresar fecha de nacimiento">Fecha de nacimiento</label>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
+                  <input class="mdl-textfield__input" type="email" id="email">
+                  <label class="mdl-textfield__label" for="Ingresar email">E-mail</label>
               </div>
-              <div class="mdl-step__actions">
-                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--raised" data-stepper-next>
-                      Continue
-                    </button>
-                <button class="mdl-button mdl-js-button mdl-js-ripple-effect" data-stepper-cancel>
-                      Cancel
-                    </button>
-              </div>
-            </li>
-            <li class="mdl-step">
-              <span class="mdl-step__label">
-                    <span class="mdl-step__title">
-                      <span class="mdl-step__title-text">Title longer than it should be</span>
-              </span>
-              </span>
-              <div class="mdl-step__content"></div>
-              <div class="mdl-step__actions">
-                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--raised" data-stepper-next>
-                      Continue
-                    </button>
-                <button class="mdl-button mdl-js-button mdl-js-ripple-effect" data-stepper-cancel>
-                      Cancel
-                    </button>
-              </div>
-            </li>
-            <li class="mdl-step">
-              <span class="mdl-step__label">
-                    <span class="mdl-step__title">
-                      <span class="mdl-step__title-text">Title of step 3</span>
-              </span>
-              </span>
-              <div class="mdl-step__content"></div>
-              <div class="mdl-step__actions">
-                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--raised" data-stepper-next>
-                      Continue
-                    </button>
-                <button class="mdl-button mdl-js-button mdl-js-ripple-effect" data-stepper-cancel>
-                      Cancel
-                    </button>
-              </div>
-            </li>
-          </ul>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon">
+                        <input class="mdl-textfield__input" type="password" id="password">
+                        <label class="mdl-textfield__label" for="Ingresar contraseña">Contraseña</label> <i
+                            class="material-icons">remove_red_eye</i>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon">
+                      <input class="mdl-textfield__input" type="password" id="password-repetido">
+                      <label class="mdl-textfield__label" for="Repetir contraseña">Repetir contraseña</label> <i
+                          class="material-icons">remove_red_eye</i>
+                  </div>
+                    <div class="submit mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
+                        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+                            <a id= "registro-btn" class="button-site mi-consumo-btn disabled-btn" href="registroExitoso.html">REGISTRARME</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
       <!-- Footer-->
       <footer>
         <div class="mdl-mini-footer">
