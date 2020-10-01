@@ -26,10 +26,11 @@ input.mdl-textfield__input{background-color: #fff;height: 3.2rem;}
     .inicio-section .mdl-textfield{width:31rem;}
 }
 @media only screen and (max-width: 767px)  {
-    .submit{display:block;}
+    .submit.mdl-cell{display:grid;justify-content: center;}
     .mapa-section img {margin-top: 2rem;margin-bottom: 2rem;}
     .mdl-layout__container{padding-top:20px;}
     .home-slide .mdl-grid.content-grid{align-items: initial;}
+    #inicio-sesion-btn{display: flex;justify-content: center;}
 }
 @media (max-width: 1199px) and (min-width: 1024px)   {
     .mdl-layout__drawer.is-visible img.logo-agua {width:40%;margin: 20%;}
@@ -119,8 +120,7 @@ a.disabled-btn{background-color:#C4C4C4;pointer-events: none;}
 .inicio-section .material-icons {color:#C4C4C4;padding-bottom: 20px;} 
 .input-usuario, .input-with-icon{margin-bottom:21px;}
 input{background-color: #fff;}
-
-
+.registro{margin-bottom:100px;}
 /*consumo section*/
 .button-site.agregar-hogar-btn{color: #2F2F2F; border: solid 1px #51A9C5;}
 .mdl-layout__drawer.consumo .mdl-layout__drawer-button .material-icons{color:#777777;}
