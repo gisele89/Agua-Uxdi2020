@@ -1,6 +1,8 @@
 h1, h2,h3,h4,h5,h6,p, a{font-family: "Montserrat";}
 a{text-decoration-line:none;transition: all 0.4s ease;}
 .material-icons{color:#51A9C5;padding-top:10px;}
+main{background-color: #f9f9f9;}
+input.mdl-textfield__input{background-color: #fff;height: 3.2rem;}
 
 @media only screen and (max-width: 1023px)  {
     .logo-agua{width:50%;margin: 20%;}
@@ -103,9 +105,11 @@ a.quiero-sumarme-btn:hover{background-color:transparent;color:#fff;}
 .inicio-section h4{font-size: 28px;font-weight: 600;}
 .inicio-section{display: flex;}
 .inicio-section .content-grid{display: flex;justify-content: center;}
-.inicio-section .mdl-textfield__label:after{background-color: #51A9C5;}
+.inicio-section .mdl-textfield__label:after{background-color: #51A9C5;height: 1px;}
 .inicio-section .mdl-textfield--floating-label.is-focused .mdl-textfield__label,
-.inicio-section .mdl-textfield--floating-label.is-upgraded.is-dirty .mdl-textfield__label{color:#51A9C5;}
+.inicio-section .mdl-textfield--floating-label.is-upgraded.is-dirty .mdl-textfield__label{color:#51A9C5;margin-top: 20px;}
+.mdl-textfield__label{padding-left: 15px;margin-top: 10px;color:#2F2F2F;}
+.inicio-section .mdl-textfield--floating-label.is-upgraded.is-focused .mdl-textfield__label{padding-left: 15px;}
 .registro span, .submit h6{color:#51A9C5; font-weight: 500;}
 .registro h6, .submit h6{font-weight: 500;}
 a.disabled-btn{background-color:#C4C4C4;pointer-events: none;}
@@ -113,9 +117,9 @@ a.disabled-btn{background-color:#C4C4C4;pointer-events: none;}
 .submit{display: inline-flex;align-items: center;}
 .input-with-icon i { position: absolute; right: 8px; bottom: 20px; cursor: pointer; }
 .inicio-section .material-icons {color:#C4C4C4;padding-bottom: 20px;} 
-.inicio-section input{padding-bottom: 20px;}
-.input-usuario{margin-bottom:51px;}
+.input-usuario, .input-with-icon{margin-bottom:21px;}
 input{background-color: #fff;}
+
 
 /*consumo section*/
 .button-site.agregar-hogar-btn{color: #2F2F2F; border: solid 1px #51A9C5;}
