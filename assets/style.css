@@ -131,8 +131,16 @@ input{background-color: #fff;}
 /*consumo section*/
 .button-site.agregar-hogar-btn{color: #2F2F2F; border: solid 1px #51A9C5;}
 .mdl-layout__drawer.consumo .mdl-layout__drawer-button .material-icons{color:#777777;}
-
 .registro-exitoso p,.registro-exitoso h3 {text-align: center;}
+
+input[type=date]::-webkit-inner-spin-button,
+  input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+  input[type=date] {
+    -moz-appearance: textfield;
+  }
 
 
 
