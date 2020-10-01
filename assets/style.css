@@ -1,4 +1,5 @@
 h1, h2,h3,h4,h5,h6,p, a{font-family: "Montserrat";}
+h3{font-size:28px;}
 a{text-decoration-line:none;transition: all 0.4s ease;}
 .material-icons{color:#51A9C5;padding-top:10px;}
 main{background-color: #f9f9f9;}
@@ -10,6 +11,7 @@ input.mdl-textfield__input{background-color: #fff;height: 3.2rem;}
     .mdl-layout__header .mdl-navigation{display:none;}
     .mdl-layout__header {display:inline;}
     .mi-consumo-btn{text-align:center;margin:10px;}
+    header.mdl-layout__header{height:0px;}
 }
 @media (max-width: 1199px) and (min-width: 1024px)   {
     .home-slide{height:40%;}
@@ -121,6 +123,11 @@ a.disabled-btn{background-color:#C4C4C4;pointer-events: none;}
 .input-usuario, .input-with-icon{margin-bottom:21px;}
 input{background-color: #fff;}
 .registro{margin-bottom:100px;}
+.registro-exitoso{display: grid;justify-items: center;}
+.registro-exitoso .submit{justify-content: center;}
+.registro-exitoso svg{padding-top: 98px;}
+.registro-exitoso h3{font-weight: 600;}
+.registro-exitoso p{margin-bottom:43px;}
 /*consumo section*/
 .button-site.agregar-hogar-btn{color: #2F2F2F; border: solid 1px #51A9C5;}
 .mdl-layout__drawer.consumo .mdl-layout__drawer-button .material-icons{color:#777777;}
