@@ -97,6 +97,9 @@ input.mdl-textfield__input {
         display: flex;
         justify-content: center;
     }
+    div.uxdi-footer-inicio-page{
+        bottom:auto;
+    }
 }
 
 @media (max-width: 1199px) and (min-width: 1024px) {
@@ -135,6 +138,7 @@ input.mdl-textfield__input {
 
 .logo-agua {
     width: 7%;
+    height: auto;
 }
 
 .mdl-layout__header {
@@ -408,6 +412,11 @@ a.disabled-btn {
 .submit {
     display: inline-flex;
     align-items: center;
+    justify-content: space-between;
+}
+.submit.mdl-cell, .submit .mdl-cell{
+    margin:0px;
+    width:100%;
 }
 
 .input-with-icon i {
@@ -433,11 +442,24 @@ input {
 .registro {
     margin-bottom: 100px;
 }
-.form-registro form{
-    display:grid;
+
+.form-registro form {
+    display: grid;
     justify-content: center;
 }
+.ejemplo-fecha{
+    color:#777777;
+    margin-top: -15px;
+    margin-left: 15px;
+}
 
+.registro-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.fecha-input {
+    margin-bottom: 0px;}
+    
 /*registro exitoso*/
 
 .registro-exitoso {

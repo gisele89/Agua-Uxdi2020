@@ -66,10 +66,14 @@
               <input class="mdl-textfield__input" type="text" id="apellido">
               <label class="mdl-textfield__label" for="Ingresar apellido">Apellido</label>
             </div>
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
-              <input class="mdl-textfield__input" type="date" id="fecha-nacimiento">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario fecha-input">
+              <input class="mdl-textfield__input" type="text" id="fecha-nacimiento" maxlength="20">
               <label class="mdl-textfield__label" for="Ingresar fecha de nacimiento">Fecha de nacimiento</label>
             </div>
+           <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone form-registro">
+            <p class="ejemplo-fecha">Ej. 01/01/2020</p>
+            <span></span>
+           </div> 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
               <input class="mdl-textfield__input" type="email" id="email">
               <label class="mdl-textfield__label" for="Ingresar email">E-mail</label>
@@ -84,13 +88,9 @@
               <label class="mdl-textfield__label" for="Repetir contraseña">Repetir contraseña</label> <i
                 class="material-icons">remove_red_eye</i>
             </div>
-            <div class="submit mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
-              <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-              </div>
-              <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone registro">
-                <a id="registro-btn" class="button-site mi-consumo-btn disabled-btn"
-                  href="registroExitoso.html">REGISTRARME</a>
-              </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone registro-btn">
+              <a id="registro-btn" class="button-site mi-consumo-btn disabled-btn"
+                href="registroExitoso.html">REGISTRARME</a>
             </div>
           </form>
         </div>
