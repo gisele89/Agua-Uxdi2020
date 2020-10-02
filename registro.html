@@ -1,106 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179074772-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179074772-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-179074772-1');
-</script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    gtag('config', 'UA-179074772-1');
+  </script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <link rel="stylesheet" href="assets/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agua - Registro</title>
-  </head>
+</head>
 <div class="mdl-layout  mdl-js-layout">
-    <!-- Header-->
-    <header class="mdl-layout__header">
-      <div class="mdl-layout-icon"></div>
-      <div class="mdl-layout__header-row">
-        <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página">
-        <div class="mdl-layout-spacer"></div>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="#">NOTICIAS</a>
-          <a class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
-          <a class="mdl-navigation__link" href="#">CONTACTO</a>
-          <a class=" button-site mi-consumo-btn" href="inicioSesion.html">MI CONSUMO</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer">
+  <!-- Header-->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout-icon"></div>
+    <div class="mdl-layout__header-row">
       <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página">
+      <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="#">NOTICIAS</a>
         <a class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
         <a class="mdl-navigation__link" href="#">CONTACTO</a>
-        <a class="button-site mi-consumo-btn" href="inicioSesion.html">MI CONSUMO</a>
+        <a class=" button-site mi-consumo-btn" href="inicioSesion.html">MI CONSUMO</a>
       </nav>
     </div>
-    <main class="mdl-layout__content">
-      <section class="inicio-section">
-        <div class="mdl-grid content-grid ">
-            <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-               <a href="index.html">
-                <span class="material-icons arrow">
-                    arrow_back
-                </span>
-               </a> 
-                <div>
-                    <h4>Registrarse </h4>
-                </div>
-                <form action="#">
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
-                        <input class="mdl-textfield__input" type="text" id="nombre">
-                        <label class="mdl-textfield__label" for="Ingresar nombre">Nombre</label>
-                    </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
-                      <input class="mdl-textfield__input" type="text" id="apellido">
-                      <label class="mdl-textfield__label" for="Ingresar apellido">Apellido</label>
-                  </div>
-                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
-                    <input class="mdl-textfield__input" type="date" id="fecha-nacimiento">
-                    <label class="mdl-textfield__label" for="Ingresar fecha de nacimiento">Fecha de nacimiento</label>
-                </div>
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
-                  <input class="mdl-textfield__input" type="email" id="email">
-                  <label class="mdl-textfield__label" for="Ingresar email">E-mail</label>
-              </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon">
-                        <input class="mdl-textfield__input" type="password" id="password">
-                        <label class="mdl-textfield__label" for="Ingresar contraseña">Contraseña</label> <i
-                            class="material-icons">remove_red_eye</i>
-                    </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon">
-                      <input class="mdl-textfield__input" type="password" id="password-repetido">
-                      <label class="mdl-textfield__label" for="Repetir contraseña">Repetir contraseña</label> <i
-                          class="material-icons">remove_red_eye</i>
-                  </div>
-                    <div class="submit mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
-                        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-                        </div>
-                        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone registro">
-                            <a id= "registro-btn" class="button-site mi-consumo-btn disabled-btn" href="registroExitoso.html">REGISTRARME</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-        </div>
-    </section>
-      <!-- Footer-->
-      <footer>
-        <div class="uxdi-footer">
-          <h6>UXDI 2020</h6>
-        </div>
-      </footer>
-    </main>
+  </header>
+  <div class="mdl-layout__drawer">
+    <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página">
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="#">NOTICIAS</a>
+      <a class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
+      <a class="mdl-navigation__link" href="#">CONTACTO</a>
+      <a class="button-site mi-consumo-btn" href="inicioSesion.html">MI CONSUMO</a>
+    </nav>
   </div>
+  <main class="mdl-layout__content">
+    <section class="inicio-section">
+      <div class="mdl-grid content-grid ">
+        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone form-registro">
+          <div>
+            <a href="index.html">
+              <span class="material-icons arrow">
+                arrow_back
+              </span>
+            </a>
+            <div>
+              <h4>Registrarse </h4>
+            </div>
+          </div>
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
+              <input class="mdl-textfield__input" type="text" id="nombre">
+              <label class="mdl-textfield__label" for="Ingresar nombre">Nombre</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
+              <input class="mdl-textfield__input" type="text" id="apellido">
+              <label class="mdl-textfield__label" for="Ingresar apellido">Apellido</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
+              <input class="mdl-textfield__input" type="date" id="fecha-nacimiento">
+              <label class="mdl-textfield__label" for="Ingresar fecha de nacimiento">Fecha de nacimiento</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
+              <input class="mdl-textfield__input" type="email" id="email">
+              <label class="mdl-textfield__label" for="Ingresar email">E-mail</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon">
+              <input class="mdl-textfield__input" type="password" id="password">
+              <label class="mdl-textfield__label" for="Ingresar contraseña">Contraseña</label> <i
+                class="material-icons">remove_red_eye</i>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon">
+              <input class="mdl-textfield__input" type="password" id="password-repetido">
+              <label class="mdl-textfield__label" for="Repetir contraseña">Repetir contraseña</label> <i
+                class="material-icons">remove_red_eye</i>
+            </div>
+            <div class="submit mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
+              <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+              </div>
+              <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone registro">
+                <a id="registro-btn" class="button-site mi-consumo-btn disabled-btn"
+                  href="registroExitoso.html">REGISTRARME</a>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer>
+      <div class="uxdi-footer">
+        <h6>UXDI 2020</h6>
+      </div>
+    </footer>
+  </main>
+</div>
 </body>
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 <script defer src="assets/script.js"></script>
