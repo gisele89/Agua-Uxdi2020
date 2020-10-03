@@ -432,7 +432,7 @@ a.disabled-btn {
     padding-bottom: 20px;
 }
 
-.input-usuario, .input-with-icon {
+ .input-with-icon {
     margin-bottom: 21px;
 }
 
@@ -485,6 +485,15 @@ input {
 
 .registro-exitoso p {
     margin-bottom: 43px;
+}
+.counter span{
+    display: flex;
+    justify-content: flex-end;
+    color: #777777;
+    margin:0px;
+}
+div.counter{
+    margin: 0px;
 }
 
 /*consumo section*/
