@@ -97,8 +97,8 @@ input.mdl-textfield__input {
         display: flex;
         justify-content: center;
     }
-    div.uxdi-footer-inicio-page{
-        bottom:auto;
+    div.uxdi-footer-inicio-page {
+        bottom: auto;
     }
 }
 
@@ -414,9 +414,10 @@ a.disabled-btn {
     align-items: center;
     justify-content: space-between;
 }
-.submit.mdl-cell, .submit .mdl-cell{
-    margin:0px;
-    width:100%;
+
+.submit.mdl-cell, .submit .mdl-cell {
+    margin: 0px;
+    width: 100%;
 }
 
 .input-with-icon i {
@@ -447,8 +448,9 @@ input {
     display: grid;
     justify-content: center;
 }
-.ejemplo-fecha{
-    color:#777777;
+
+.ejemplo-fecha {
+    color: #777777;
     margin-top: -15px;
     margin-left: 15px;
 }
@@ -457,9 +459,11 @@ input {
     display: flex;
     justify-content: flex-end;
 }
+
 .fecha-input {
-    margin-bottom: 0px;}
-    
+    margin-bottom: 0px;
+}
+
 /*registro exitoso*/
 
 .registro-exitoso {

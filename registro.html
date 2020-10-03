@@ -11,6 +11,9 @@
 
     gtag('config', 'UA-179074772-1');
   </script>
+    <!-- Google Optimize-->
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TSMPC23"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" type="text/css">
@@ -24,13 +27,13 @@
   <header class="mdl-layout__header">
     <div class="mdl-layout-icon"></div>
     <div class="mdl-layout__header-row">
-      <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página">
+      <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página" tabindex="1">
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="#">NOTICIAS</a>
-        <a class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
-        <a class="mdl-navigation__link" href="#">CONTACTO</a>
-        <a class=" button-site mi-consumo-btn" href="inicioSesion.html">MI CONSUMO</a>
+        <a class="mdl-navigation__link" href="#" tabindex="2">NOTICIAS</a>
+        <a class="mdl-navigation__link" href="#" tabindex="3">RECOMENDACIONES</a>
+        <a class="mdl-navigation__link" href="#" tabindex="4">CONTACTO</a>
+        <a class=" button-site mi-consumo-btn" href="inicioSesion.html" tabindex="5">MI CONSUMO</a>
       </nav>
     </div>
   </header>
@@ -59,25 +62,34 @@
           </div>
           <form action="#">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
-              <input class="mdl-textfield__input" type="text" id="nombre">
+              <input class="mdl-textfield__input" type="text" id="nombre" maxlength="20" data-remaining="nombre-r">
               <label class="mdl-textfield__label" for="Ingresar nombre">Nombre</label>
             </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
+              <span id="nombre-r">0/20</span>
+             </div> 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
               <input class="mdl-textfield__input" type="text" id="apellido">
               <label class="mdl-textfield__label" for="Ingresar apellido">Apellido</label>
             </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
+              <span id="test1">0/20</span>
+             </div> 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario fecha-input">
-              <input class="mdl-textfield__input" type="text" id="fecha-nacimiento" maxlength="20">
+              <input class="mdl-textfield__input" type="text" id="fecha-nacimiento" maxlength="20" data-remaining="fecha-r">
               <label class="mdl-textfield__label" for="Ingresar fecha de nacimiento">Fecha de nacimiento</label>
             </div>
-           <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone form-registro">
+           <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
             <p class="ejemplo-fecha">Ej. 01/01/2020</p>
-            <span></span>
+            <span id="fecha-r">0/20</span>
            </div> 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario">
               <input class="mdl-textfield__input" type="email" id="email">
               <label class="mdl-textfield__label" for="Ingresar email">E-mail</label>
             </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
+              <span id="test1">0/20</span>
+             </div> 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon">
               <input class="mdl-textfield__input" type="password" id="password">
               <label class="mdl-textfield__label" for="Ingresar contraseña">Contraseña</label> <i
