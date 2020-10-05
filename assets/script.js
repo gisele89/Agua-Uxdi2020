@@ -11,12 +11,8 @@ icon.addEventListener('click', (event) => {
 let button = document.querySelector('#sumarse-btn');
 if (button) {
     button.addEventListener('click', function (event) {
-        ga('send', 'event', {
-            eventAction: 'click',
-            eventCategory: 'Quiero Sumarme Button',
-            eventLabel: event.target.id
+        gtag('event', 'Quiero Sumarme Button')  
         });
-    });
 }
 
 /*enable button*/
