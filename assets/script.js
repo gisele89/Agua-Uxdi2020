@@ -1,4 +1,4 @@
-/*analytics*/
+
 const input = document.querySelector('#password');
 const icon = document.querySelector('.input-with-icon i');
 icon.addEventListener('click', (event) => {
@@ -6,7 +6,7 @@ icon.addEventListener('click', (event) => {
     const type = (input.getAttribute('type') === 'text') ? 'password' : 'text';
     input.setAttribute('type', type);
 });
-
+/*analytics*/
 let button = document.querySelector('#sumarse-btn');
 if (button) {
     button.addEventListener('click', function (event) {
