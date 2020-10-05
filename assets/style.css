@@ -100,6 +100,10 @@ input.mdl-textfield__input {
     div.uxdi-footer-inicio-page {
         bottom: auto;
     }
+
+    .home-slide, .mapa-section {
+        text-align:center;
+    }
 }
 
 @media (max-width: 1199px) and (min-width: 1024px) {
@@ -267,6 +271,10 @@ a.quiero-sumarme-btn:hover {
     margin-bottom: 43px;
 }
 
+.svg-card svg:hove {
+    fill: #51A9C5;
+}
+
 /*mapa section*/
 
 .mapa-section {
@@ -346,6 +354,11 @@ a.quiero-sumarme-btn:hover {
 
 .title-card p {
     margin-bottom: 0px;
+}
+
+.noticias-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /*inicio section*/
@@ -432,7 +445,7 @@ a.disabled-btn {
     padding-bottom: 20px;
 }
 
- .input-with-icon {
+.input-with-icon {
     margin-bottom: 21px;
 }
 
@@ -451,8 +464,10 @@ input {
 
 .ejemplo-fecha {
     color: #777777;
-    margin-top: -15px;
     margin-left: 15px;
+}
+.ejemplo-fecha p{
+    margin-top: 0px;
 }
 
 .registro-btn {
@@ -460,9 +475,21 @@ input {
     justify-content: flex-end;
 }
 
-.fecha-input {
+ .counter-fecha {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #777777;
+    margin: 0px;
+}
+.fecha-input{
     margin-bottom: 0px;
 }
+.mdl-textfield__input{
+    padding: 10px 0px;
+}
+
+
 
 /*registro exitoso*/
 
@@ -486,13 +513,15 @@ input {
 .registro-exitoso p {
     margin-bottom: 43px;
 }
-.counter span{
+
+.counter span {
     display: flex;
     justify-content: flex-end;
     color: #777777;
-    margin:0px;
+    margin: 0px;
 }
-div.counter{
+
+div.counter {
     margin: 0px;
 }
 

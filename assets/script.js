@@ -6,6 +6,17 @@ icon.addEventListener('click', (event) => {
     input.setAttribute('type', type);
 });
 
+let buttons = document.querySelector('#sumarse-btn');
+buttons.forEach( function( btn ) {
+   btn.addEventListener('click', function(event) {
+      ga('send', 'event', {
+         eventAction: 'click',
+         eventCategory: 'Quiero Sumarme Button',
+         eventLabel: event.target.id 
+      });
+   });
+} );
+
 /*
 let pass = document.getElementById(password);
 let user = document.getElementById(usuario);
@@ -22,9 +33,20 @@ el.forEach(element => {
 });
 
 function countCharacters(e) {                                    
-    var textEntered, countRemaining, counter;          
+    let textEntered, countRemaining, counter;          
     textEntered = this.value;
     counter = (textEntered.length);
     countRemaining = document.getElementById(this.getAttribute("data-remaining"));
     countRemaining.textContent = counter + "/20";       
+  }
+
+  let elem;
+elem = document.querySelectorAll('.inputs-form');  
+elem.forEach(element => {
+    element.addEventListener('keyup', enableButton, false);
+});
+
+  function enableButton(e) {
+    document.getElementById('registro-btn').disabled = true;
+    
   }
