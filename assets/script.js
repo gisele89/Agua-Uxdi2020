@@ -1,11 +1,12 @@
 
 const input = document.querySelector('#password');
 const icon = document.querySelector('.input-with-icon i');
+if(icon){
 icon.addEventListener('click', (event) => {
     event.preventDefault();
     const type = (input.getAttribute('type') === 'text') ? 'password' : 'text';
     input.setAttribute('type', type);
-});
+});}
 /*analytics*/
 let button = document.querySelector('#sumarse-btn');
 if (button) {
@@ -30,9 +31,10 @@ if ((pass.value != '') && (user.value != '')) {
 /*counter*/
 let el;
 el = document.querySelectorAll('.mdl-textfield__input');
+if(el){
 el.forEach(element => {
     element.addEventListener('keyup', countCharacters, false);
-});
+});}
 
 function countCharacters(e) {
     let textEntered, countRemaining, counter;
@@ -44,9 +46,10 @@ function countCharacters(e) {
 
 let elem;
 elem = document.querySelectorAll('.inputs-form');
+if(elem){
 elem.forEach(element => {
     element.addEventListener('keyup', enableButton, false);
-});
+});}
 
 function enableButton(e) {
     document.getElementById('registro-btn').disabled = true;
