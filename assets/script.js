@@ -14,24 +14,24 @@ if (button) {
         });
 }
 
-let button = document.querySelector('#ver-mas-mapa-btn');
-if (button) {
-    button.addEventListener('click', function (event) {
+let buttonVerMas = document.querySelector('#ver-mas-mapa-btn');
+if (buttonVerMas {
+    buttonVerMas.addEventListener('click', function (event) {
         gtag('event', 'Ver mas mapa Button')  
         });
 }
 
-let button = document.querySelector('#mi-consumo-btn');
-if (button) {
-    button.addEventListener('click', function (event) {
+let buttonMiConsumo = document.querySelector('#mi-consumo-btn');
+if (buttonMiConsumo ) {
+    buttonMiConsumo .addEventListener('click', function (event) {
         gtag('event', 'Mi consumo Button')  
         });
 }
 
 
-let button = document.querySelector('#ver-mas-noticias-btn');
-if (button) {
-    button.addEventListener('click', function (event) {
+let buttonNoticias = document.querySelector('#ver-mas-noticias-btn');
+if (buttonNoticias) {
+    buttonNoticias.addEventListener('click', function (event) {
         gtag('event', 'Ver mas noticias Button')  
         });
 }
