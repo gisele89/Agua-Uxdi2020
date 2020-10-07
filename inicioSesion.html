@@ -27,13 +27,13 @@
         <header class="mdl-layout__header">
             <div class="mdl-layout-icon"></div>
             <div class="mdl-layout__header-row">
-                <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página" />
+                <img tabindex="1"class="logo-agua" src="images/logo-agua.png" alt="Logo de la página" />
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="#">NOTICIAS</a>
-                    <a class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
-                    <a class="mdl-navigation__link" href="#">CONTACTO</a>
-                    <a class=" button-site mi-consumo-btn" href="#">MI CONSUMO</a>
+                    <a tabindex="2" class="mdl-navigation__link" href="#">NOTICIAS</a>
+                    <a tabindex="3" class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
+                    <a tabindex="4" class="mdl-navigation__link" href="#">CONTACTO</a>
+                    <a tabindex="5" class=" button-site mi-consumo-btn" href="#">MI CONSUMO</a>
                 </nav>
             </div>
         </header>
@@ -53,31 +53,31 @@
                     <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone form-registro">
                         <div>
                             <a href="index.html">
-                                <span class="material-icons arrow">
+                                <span tabindex="14"class="material-icons arrow">
                                     arrow_back
                                 </span>
                             </a>
                             <div>
-                                <h4>Iniciar Sesión </h4>
+                                <h4 tabindex="6">Iniciar Sesión </h4>
                             </div>
                         </div>
                         <form action="#">
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario inputs-form">
+                            <div tabindex="7"class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-usuario inputs-form">
                                 <input class="mdl-textfield__input" type="text" id="nombre">
                                 <label class="mdl-textfield__label" for="Ingresar nombre">Nombre</label>
                             </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon inputs-form">
+                            <div  tabindex="8" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input-with-icon inputs-form">
                                 <input class="mdl-textfield__input" type="password" id="password">
                                 <label class="mdl-textfield__label" for="Ingresar contraseña">Contraseña</label> <i
                                     class="material-icons">remove_red_eye</i>
                             </div>
                             <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone submit">
-                                <h6>¿Olvidaste tu contraseña?</h6>
-                                <a id="inicio-sesion-btn" class="button-site mi-consumo-btn disabled-btn button-state"
+                                <h6 tabindex="9">¿Olvidaste tu contraseña?</h6>
+                                <a  tabindex="10"id="inicio-sesion-btn" class="button-site mi-consumo-btn disabled-btn button-state"
                                     href="index.html">INICIAR SESIÓN</a>
                             </div>
                             <div class="registro">
-                                <h6>¿No tenés cuenta? <a href="registro.html"><span>Registrate</span></a></h6>
+                                <h6 tabindex="11">¿No tenés cuenta? <a href="registro.html"><span tabindex="12">Registrate</span></a></h6>
                             </div>
                         </form>
                     </div>
@@ -85,7 +85,7 @@
             </section>
             <footer>
                 <div class="uxdi-footer-inicio-page">
-                    <h6>UXDI 2020</h6>
+                    <h6 tabindex="13">UXDI 2020</h6>
                 </div>
             </footer>
         </main>

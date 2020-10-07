@@ -11,6 +11,7 @@ a {
     transition: all 0.4s ease;
 }
 
+
 .material-icons {
     color: #51A9C5;
     padding-top: 10px;
@@ -177,10 +178,11 @@ a.mi-consumo-btn {
     transition: all 0.4s ease;
 }
 
-a.mi-consumo-btn:hover {
+a.mi-consumo-btn:hover, a.mi-consumo-btn:focus {
     background-color: #fff;
     color: #51A9C5;
     border: 1px solid #51A9C5;
+    outline:none;
 }
 
 .consumo-page.mdl-layout__header-row {
@@ -232,9 +234,10 @@ a.quiero-sumarme-btn {
     border: 1px solid #fff;
 }
 
-a.quiero-sumarme-btn:hover {
+a.quiero-sumarme-btn:hover, a.quiero-sumarme-btn:focus {
     background-color: transparent;
     color: #fff;
+    outline:none;
 }
 
 .home-slide {
@@ -408,6 +411,7 @@ a.quiero-sumarme-btn:hover {
 .registro span, .submit h6 {
     color: #51A9C5;
     font-weight: 500;
+    outline:none;
 }
 
 .registro h6, .submit h6 {

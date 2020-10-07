@@ -27,13 +27,13 @@
         <header class="mdl-layout__header">
             <div class="mdl-layout-icon"></div>
             <div class="mdl-layout__header-row">
-                <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página" />
+                <img tabindex="1" class="logo-agua" src="images/logo-agua.png" alt="Logo de la página" />
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="#">NOTICIAS</a>
-                    <a class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
-                    <a class="mdl-navigation__link" href="#">CONTACTO</a>
-                    <a class=" button-site mi-consumo-btn" href="#">MI CONSUMO</a>
+                    <a tabindex="2" class="mdl-navigation__link" href="#">NOTICIAS</a>
+                    <a tabindex="3" class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
+                    <a tabindex="4"class="mdl-navigation__link" href="#">CONTACTO</a>
+                    <a tabindex="5" class=" button-site mi-consumo-btn" href="#">MI CONSUMO</a>
                 </nav>
             </div>
         </header>
@@ -51,8 +51,10 @@
                 <div class="mdl-grid content-grid ">
                     <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone registro-exitoso">
                         <div>
-                            <svg width="78" height="78" viewBox="0 0 78 78" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg tabindex="6" width="78" height="78" viewBox="0 0 78 78" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" role="img">
+                                <title>Icono tilde</title>
+                                <desc> Icono tilde en fondo blanco y contorno celeste</desc>
                                 <path
                                     d="M66.5767 11.4233C51.3455 -3.80783 26.6512 -3.80783 11.4232 11.4236C-3.80783 26.6547 -3.80783 51.3488 11.4238 66.5768C26.6512 81.8078 51.3455 81.8078 66.5767 66.5765C81.8078 51.3488 81.8078 26.6547 66.5767 11.4233ZM61.9807 61.9801C49.2878 74.6731 28.7095 74.6731 16.02 61.9807C3.32703 49.2907 3.32703 28.7124 16.0197 16.0197C28.7095 3.32688 49.2878 3.32688 61.9804 16.0197C74.6731 28.7125 74.6731 49.2907 61.9807 61.9801Z"
                                     fill="#51A9C5" />
@@ -63,11 +65,11 @@
 
                         </div>
                         <div class="registro-exitoso">
-                            <h3>¡Registro Exitoso!</h3>
-                            <p>Te mandamos un mail para confirmar tu <br>información. ¡Revisá tu casilla de correo!</p>
+                            <h3 tabindex="7">¡Registro Exitoso!</h3>
+                            <p tabindex="8">Te mandamos un mail para confirmar tu <br>información. ¡Revisá tu casilla de correo!</p>
                         </div>
                         <div class="submit mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
-                            <a id="inicio-sesion-btn" class="button-site mi-consumo-btn"
+                            <a tabindex="9" id="inicio-sesion-btn" class="button-site mi-consumo-btn"
                                 href="inicioSesion.html">INICIAR SESIÓN</a>
                         </div>
                     </div>
@@ -76,7 +78,7 @@
             </section>
             <footer>
                 <div class="uxdi-footer-inicio-page">
-                    <h6>UXDI 2020</h6>
+                    <h6 tabindex="10">UXDI 2020</h6>
                 </div>
             </footer>
         </main>

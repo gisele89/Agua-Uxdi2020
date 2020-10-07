@@ -29,13 +29,13 @@
     <header class="mdl-layout__header">
       <div class="mdl-layout-icon"></div>
       <div class="mdl-layout__header-row">
-        <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página">
+        <img class="logo-agua" src="images/logo-agua.png" alt="Logo de la página" tabindex="1">>
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="#">NOTICIAS</a>
-          <a class="mdl-navigation__link" href="#">RECOMENDACIONES</a>
-          <a class="mdl-navigation__link" href="#">CONTACTO</a>
-          <a id= 'mi-consumo-btn'class=" button-site mi-consumo-btn" href="inicioSesion.html">MI CONSUMO</a>
+          <a class="mdl-navigation__link" href="#" tabindex="2">NOTICIAS</a>
+          <a class="mdl-navigation__link" href="#" tabindex="3">RECOMENDACIONES</a>
+          <a class="mdl-navigation__link" href="#" tabindex="4">CONTACTO</a>
+          <a id= 'mi-consumo-btn'class=" button-site mi-consumo-btn" href="inicioSesion.html" tabindex="5">MI CONSUMO</a>
         </nav>
       </div>
     </header>
@@ -53,11 +53,11 @@
       <section class="home-slide">
         <div class="mdl-grid content-grid ">
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone ">
-            <h5>CUIDEMOS EL MEDIO AMBIENTE</h5>
-            <h1>¡Sumate al desafío!</h1>
-            <p>Registrá tu hogar, visualizá tu consumo y sumate al desafio de consumir menos y acceder a beneficos
+            <h5 tabindex="6">CUIDEMOS EL MEDIO AMBIENTE</h5>
+            <h1 tabindex="7">¡Sumate al desafío!</h1>
+            <p tabindex="8">Registrá tu hogar, visualizá tu consumo y sumate al desafio de consumir menos y acceder a beneficos
               exclusivos.</p>
-            <a id="sumarse-btn" class="button-site quiero-sumarme-btn" href="inicioSesion.html">QUIERO SUMARME</a>
+            <a id="sumarse-btn" class="button-site quiero-sumarme-btn" href="inicioSesion.html" tabindex="9">QUIERO SUMARME</a>
           </div>
         </div>
       </section>
@@ -65,12 +65,14 @@
       <section class="sabias-que-section">
         <div class="mdl-grid content-grid ">
           <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone  ">
-            <h1>Sabias que...</h1>
-            <p>Los argentinos llegamos a gastar entre 300 y 600 litros por día, cuando según la Organización Mundial de
+            <h1 tabindex="10">Sabias que...</h1>
+            <p tabindex="11">Los argentinos llegamos a gastar entre 300 y 600 litros por día, cuando según la Organización Mundial de
               la Salud (OMS), 100 litros deberían ser suficientes para satisfacer las necesidades básicas de salud. </p>
           </div>
           <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone svg-card">
-            <svg width="193" height="193" viewBox="0 0 193 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg tabindex="12" width="193" height="193" viewBox="0 0 193 193" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+              <title>Icono botella</title>
+              <desc> Icono de botella en color blanco con contornos celeste</desc>
               <g filter="url(#filter0_d)">
                 <circle cx="96.5" cy="92.5" r="92.5" fill="white" />
                 <circle cx="96.5" cy="92.5" r="91" stroke="#51A9C5" stroke-width="3" />
@@ -101,10 +103,12 @@
                 </clipPath>
               </defs>
             </svg>
-            <p>Solo un 3,5% del agua de la Tierra es dulce. </p>
+            <p tabindex="13">Solo un 3,5% del agua de la Tierra es dulce. </p>
           </div>
           <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone svg-card">
-            <svg width="193" height="193" viewBox="0 0 193 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg tabindex="14" width="193" height="193" viewBox="0 0 193 193" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+              <title>Icono pileta</title>
+              <desc> Icono de pileta de natación con escaleras para salir de la misma en color blanco con contornos celeste</desc>
               <g filter="url(#filter0_d)">
                 <circle cx="96.5" cy="92.5" r="92.5" fill="white" />
                 <circle cx="96.5" cy="92.5" r="91" stroke="#51A9C5" stroke-width="3" />
@@ -137,10 +141,12 @@
                 </filter>
               </defs>
             </svg>
-            <p> Las piletas gastan mas del 50% de nuestra agua potable </p>
+            <p tabindex="15"> Las piletas gastan mas del 50% de nuestra agua potable </p>
           </div>
           <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone svg-card">
-            <svg width="193" height="193" viewBox="0 0 193 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg tabindex="16" width="193" height="193" viewBox="0 0 193 193" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+              <title>Icono regadera</title>
+              <desc> Icono de regadera inclinada con agua saliendo con fondo blanco y contornos celeste</desc>
               <g filter="url(#filter0_d)">
                 <circle cx="96.5" cy="92.5" r="92.5" fill="white" />
                 <circle cx="96.5" cy="92.5" r="91" stroke="#51A9C5" stroke-width="3" />
@@ -179,7 +185,7 @@
               </defs>
             </svg>
 
-            <p>Podes juntar agua de lluvia para regar tus plantas </p>
+            <p tabindex="17">Podes juntar agua de lluvia para regar tus plantas </p>
           </div>
         </div>
       </section>
@@ -187,13 +193,13 @@
       <section class="mapa-section">
         <div class="mdl-grid content-grid ">
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-            <h1>Mapa interactivo</h1>
-            <p> Te ofrecemos un mapa de la ciudad para que puedas ver los niveles de consumo de agua de manera
+            <h1 tabindex="18">Mapa interactivo</h1>
+            <p tabindex="19"> Te ofrecemos un mapa de la ciudad para que puedas ver los niveles de consumo de agua de manera
               sectorizada.</p>
-            <a id= 'ver-mas-mapa-btn'class="button-site quiero-sumarme-btn" href="#">VER MAPA</a>
+            <a tabindex="20" id= 'ver-mas-mapa-btn'class="button-site quiero-sumarme-btn" href="#">VER MAPA</a>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-            <img src="images/mapa-interactivo.jpg" alt="Mapa de Tandil">
+            <img tabindex="21" src="images/mapa-interactivo.jpg" alt="Mapa de Tandil">
           </div>
         </div>
       </section>
@@ -202,32 +208,32 @@
         <div class="mdl-grid content-grid ">
           <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
             <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-phone">
-              <h1>Noticias</h1>
+              <h1 tabindex="22">Noticias</h1>
             </div>
             <div class="mdl-cell mdl-cell--2-col mdl-cell--12-col-phone">
-              <a id='ver-mas-noticias-btn'class="button-site mi-consumo-btn"
+              <a tabindex="23" id='ver-mas-noticias-btn'class="button-site mi-consumo-btn"
                 href="#">VER MAS</a>
             </div>
           </div>
           <div class="mdl-cell mdl-cell--4-col  mdl-cell--12-col-phone noticias-card">
-            <img src="images/noticias-1.jpg" alt="Casa sobre el agua">
+            <img tabindex="24" src="images/noticias-1.jpg" alt="Casa sobre el agua">
             <div class="title-card">
-              <p>5 AGO 2020 </p>
-              <H5>Sistema de optimizacion <br> para viviendas.</H5>
+              <p tabindex="25">5 AGO 2020 </p>
+              <H5 tabindex="26">Sistema de optimizacion <br> para viviendas.</H5>
             </div>
           </div>
           <div class="mdl-cell mdl-cell--4-col  mdl-cell--12-col-phone noticias-card">
-            <img src="images/noticias-2.jpg" alt="Jarra sirviendo agua en un vaso">
+            <img tabindex="27" src="images/noticias-2.jpg" alt="Jarra sirviendo agua en un vaso">
             <div class="title-card">
-              <p> 5 AGO 2020 </p>
-              <h5>10 consejos sobre como ahorrar agua. </h5>
+              <p tabindex="28"> 5 AGO 2020 </p>
+              <h5 tabindex="29">10 consejos sobre como ahorrar agua. </h5>
             </div>
           </div>
           <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone noticias-card">
-            <img src="images/noticias-3.jpg" alt="Persona sacando agua con sus manos en un lago cristalino entre montañas">
+            <img  tabindex="30"src="images/noticias-3.jpg" alt="Persona sacando agua con sus manos en un lago cristalino entre montañas">
             <div class="title-card">
-              <p>5 AGO 2020 </p>
-              <h5>Proyecto de gestión de servicios en Tandil </h5>
+              <p tabindex="31">5 AGO 2020 </p>
+              <h5 tabindex="32">Proyecto de gestión de servicios en Tandil </h5>
             </div>
           </div>
         </div>
@@ -235,14 +241,14 @@
       <!-- Footer-->
       <footer>
         <div class="mdl-mini-footer">
-          <div class="mdl-logo"> <img class="logo-agua" src="images/logo-footer.png" alt="Logo de la página"></div>
+          <div class="mdl-logo"> <img  tabindex="33"class="logo-agua" src="images/logo-footer.png" alt="Logo de la página Agua que consiste en una canilla con una gota cayendo y el texto agua al lado ambos en tono celeste"></div>
           <div>
-            <i class="material-icons md-48">facebook</i>
-            <i class="material-icons md-48">facebook</i>
+            <i  tabindex="34"class="material-icons md-48">facebook</i>
+            <i  tabindex="35"class="material-icons md-48">facebook</i>
           </div>
         </div>
         <div class="uxdi-footer">
-          <h6>UXDI 2020</h6>
+          <h6 tabindex="36">UXDI 2020</h6>
         </div>
       </footer>
     </main>

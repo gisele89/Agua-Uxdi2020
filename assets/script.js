@@ -75,7 +75,9 @@ function enableButton(e) {
         }
     });
     if(!disable){
-        let elem=document.getElementsByClassName('button-state')[0].classList.remove('disabled-btn');
+        document.getElementsByClassName('button-state')[0].classList.remove('disabled-btn');
+    }else {
+        document.getElementsByClassName('button-state')[0].classList.add('disabled-btn');
     }
 }
 
