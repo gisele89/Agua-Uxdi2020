@@ -14,6 +14,28 @@ if (button) {
         });
 }
 
+let button = document.querySelector('#ver-mas-mapa-btn');
+if (button) {
+    button.addEventListener('click', function (event) {
+        gtag('event', 'Ver mas mapa Button')  
+        });
+}
+
+let button = document.querySelector('#mi-consumo-btn');
+if (button) {
+    button.addEventListener('click', function (event) {
+        gtag('event', 'Mi consumo Button')  
+        });
+}
+
+
+let button = document.querySelector('#ver-mas-noticias-btn');
+if (button) {
+    button.addEventListener('click', function (event) {
+        gtag('event', 'Ver mas noticias Button')  
+        });
+}
+
 
 /*counter*/
 let el;
