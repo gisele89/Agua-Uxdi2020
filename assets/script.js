@@ -1,4 +1,3 @@
-
 const input = document.querySelector('#password');
 const icon = document.querySelector('.input-with-icon i');
 if(icon){
@@ -15,14 +14,6 @@ if (button) {
         });
 }
 
-/*enable button*/
-/*
-let pass = document.getElementById(password);
-let user = document.getElementById(usuario);
-let bt = document.getElementById('inicio-sesion-btn');
-if ((pass.value != '') && (user.value != '')) {
-    bt.classList.remove('disabled-btn');
-}*/
 
 /*counter*/
 let el;
@@ -37,17 +28,32 @@ function countCharacters(e) {
     textEntered = this.value;
     counter = (textEntered.length);
     countRemaining = document.getElementById(this.getAttribute("data-remaining"));
-    countRemaining.textContent = counter + "/20";
+    if(countRemaining){
+        countRemaining.textContent = counter + "/20";
+    }
+    
 }
 
+
+//habilitar y deshabilitar botones de form
+
 let elem;
-elem = document.querySelectorAll('.inputs-form');
+elem = document.querySelectorAll('.mdl-textfield__input');
 if(elem){
 elem.forEach(element => {
     element.addEventListener('keyup', enableButton, false);
 });}
 
 function enableButton(e) {
-    document.getElementById('registro-btn').disabled = true;
-
+    let inputs = document.querySelectorAll('.mdl-textfield__input');
+    let disable = false;
+    inputs.forEach(element => {
+        if(element.value == ''){
+            disable = true;            
+        }
+    });
+    if(!disable){
+        let elem=document.getElementsByClassName('button-state')[0].classList.remove('disabled-btn');
+    }
 }
+

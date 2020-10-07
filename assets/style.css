@@ -132,6 +132,9 @@ input.mdl-textfield__input {
     .inicio-section span.material-icons.arrow {
         margin-top: 20px;
     }
+    .registro {
+        margin-bottom: 0px;
+    }
 }
 
 /*header*/
@@ -473,6 +476,7 @@ input {
 .registro-btn {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 94px;
 }
 
  .counter-fecha {
