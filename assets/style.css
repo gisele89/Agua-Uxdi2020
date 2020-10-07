@@ -135,9 +135,11 @@ input.mdl-textfield__input {
     .inicio-section span.material-icons.arrow {
         margin-top: 20px;
     }
-    .registro {
+    div.registro {
         margin-bottom: 0px;
     }
+   
+
 }
 
 /*header*/
