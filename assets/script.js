@@ -15,14 +15,14 @@ if (button) {
 }
 
 let buttonVerMas = document.querySelector('#ver-mas-mapa-btn');
-if (buttonVerMas {
+if (buttonVerMas){
     buttonVerMas.addEventListener('click', function (event) {
         gtag('event', 'Ver mas mapa Button')  
         });
 }
 
 let buttonMiConsumo = document.querySelector('#mi-consumo-btn');
-if (buttonMiConsumo ) {
+if (buttonMiConsumo) {
     buttonMiConsumo .addEventListener('click', function (event) {
         gtag('event', 'Mi consumo Button')  
         });
